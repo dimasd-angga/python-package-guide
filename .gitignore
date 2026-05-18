@@ -1,5 +1,4 @@
 # Vscode
-.vscode/
 
 # Python
 tmp/
@@ -14,6 +13,7 @@ locales/*/LC_MESSAGES/*.mo
 # Exclude Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
+temp_auto_push.bat
 
 # Exclude Python bytecode
 __pycache__/
@@ -30,3 +30,5 @@ ENV/
 */venv/
 .nox
 */.nox/
+.gitignore
+branch_structure.json
